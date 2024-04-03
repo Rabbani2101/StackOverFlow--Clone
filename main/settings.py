@@ -129,7 +129,7 @@ If you don't want to use postgresql then remove comment of sqlite's configuratio
 comment in the postgresql configuration
 """
 
- DATABASES = {
+DATABASES = {
      'default': {
          'ENGINE': 'django.db.backends.mysql',
          'NAME': 'django-server',
@@ -138,7 +138,7 @@ comment in the postgresql configuration
          'HOST': 'django-server.mysql.database.azure.com',
          'PORT': '3306',
      }
- }
+}
 
 # Password validation
 
